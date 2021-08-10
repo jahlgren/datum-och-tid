@@ -1,6 +1,8 @@
 const timeElement = document.getElementById("time");
 const dateElement = document.getElementById("date");
 
+update();
+
 setInterval(update, 100);
 
 function update() {
